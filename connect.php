@@ -14,8 +14,8 @@
       return $link;
     }
    function selectBD(){
-		$select=mysqli_select_db($link, $database)or die($this->errorSelect(mysqli_error($link)));
-		return $select;
-	}
+   	$select=mysqli_select_db($link, $database)or die($this->errorSelect(mysqli_error($link)));
+	return $select;
+    }
 }
 ?>
